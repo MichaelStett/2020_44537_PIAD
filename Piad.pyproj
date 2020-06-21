@@ -28,16 +28,13 @@
     <InterpreterReference Include="Global|PythonCore|3.7" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="autos.csv" />
-    <Content Include="zoo.csv" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="lab02.py" />
     <Compile Include="lab05.py" />
     <Compile Include="lab06.py" />
     <Compile Include="lab07.py" />
     <Compile Include="lab08.py" />
     <Compile Include="lab09.py" />
+    <Compile Include="lab1.py" />
     <Compile Include="lab11.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
